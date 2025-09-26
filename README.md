@@ -35,7 +35,7 @@ As dependências são restauradas automaticamente ao abrir o projeto, mas, se ne
 4. Banco de dados
 
 - O arquivo bancoAcademia.db já está incluído no repositório, ele será copiado automaticamente para a pasta bin quando o projeto for compilado.
-• Você não precisa configurar caminhos manuais, apenas garantir que o arquivo está no repositório.
+- Você não precisa configurar caminhos manuais, apenas garantir que o arquivo está no repositório.
 
 5. Compilar e executar
 
@@ -59,13 +59,13 @@ As dependências são restauradas automaticamente ao abrir o projeto, mas, se ne
 
 O sistema oferece diversas funcionalidades para auxiliar no gerenciamento da academia, incluindo:
 
-• Cadastro e gerenciamento de alunos, professores, turmas e usuários.  
+- Cadastro e gerenciamento de alunos, professores, turmas e usuários.  
 
-• Relacionamento entre entidades (ex.: vincular aluno a professor e turma).  
+- Relacionamento entre entidades (ex.: vincular aluno a professor e turma).  
 
-• Armazenamento de dados com **SQLite**.  
+- Armazenamento de dados com **SQLite**.  
 
-• Interfaces criadas com boas práticas de usabilidade.  
+- Interfaces criadas com boas práticas de usabilidade.  
 
 Essas funcionalidades tornam o sistema uma solução prática para academias de pequeno e médio porte.
 
