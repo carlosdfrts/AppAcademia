@@ -28,9 +28,9 @@ git clone https://github.com/carlosdfrts/AppAcademia.git
 O projeto utiliza o SQLite via NuGet.
 As dependências são restauradas automaticamente ao abrir o projeto, mas, se necessário:
 
-• Vá em Tools > NuGet Package Manager > Manage NuGet Packages for Solution...
+- Vá em Tools > NuGet Package Manager > Manage NuGet Packages for Solution...
 
-• Verifique se o pacote System.Data.SQLite.Core está instalado.
+- Verifique se o pacote System.Data.SQLite.Core está instalado.
 
 4. Banco de dados
 O arquivo bancoAcademia.db já está incluído no repositório.
@@ -39,21 +39,21 @@ Ele será copiado automaticamente para a pasta bin quando o projeto for compilad
 
 5. Compilar e executar
 
-• Certifique-se de que a plataforma de destino do projeto está configurada como x64 (em Project > Properties > Build > Platform target).
+- Certifique-se de que a plataforma de destino do projeto está configurada como x64 (em Project > Properties > Build > Platform target).
 
-• Pressione F5 para compilar e rodar.
+- Pressione F5 para compilar e rodar.
 
 5. Funcionalidades principais
 
-• Cadastrar alunos, professores, turmas e usuários.
+- Cadastrar alunos, professores, turmas e usuários.
 
-• Vincular alunos a turmas e professores.
+- Vincular alunos a turmas e professores.
 
-• Consultar, editar e excluir registros.
+- Consultar, editar e excluir registros.
 
-• Navegar pelas interfaces criadas com foco em usabilidade.
+- Navegar pelas interfaces criadas com foco em usabilidade.
 
-• Gerenciar de forma simples e prática as informações da academia.
+- Gerenciar de forma simples e prática as informações da academia.
 
 ## Funcionalidades
 
