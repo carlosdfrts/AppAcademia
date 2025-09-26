@@ -20,7 +20,6 @@ Dependendo do nível de acesso, diferentes funcionalidades ficam disponíveis no
 ## Como Usar
 1. Clonar o repositório
 
-bash
 git clone https://github.com/carlosdfrts/AppAcademia.git
 
 2. Abra a solução no Visual Studio 2022 (ou superior).
