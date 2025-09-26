@@ -18,17 +18,43 @@ Dependendo do nível de acesso, diferentes funcionalidades ficam disponíveis no
 - **3 = Administrador:** acesso total ao sistema, incluindo funções de manutenção e gerenciamento de usuários.  
 
 ## Como Usar
-1: Cadastrar alunos, professores, turmas e usuários.  
+1. Clonar o repositório
 
-2: Vincular alunos a turmas e professores através do banco de dados SQLite.  
+bash
+git clone https://github.com/carlosdfrts/AppAcademia.git
 
-3: Consultar, editar e excluir registros.  
+2. Abra a solução no Visual Studio 2022 (ou superior).
 
-4: Navegar pelas interfaces criadas com foco em usabilidade.  
+3. Restaurar dependências
+O projeto utiliza o SQLite via NuGet.
+As dependências são restauradas automaticamente ao abrir o projeto, mas, se necessário:
 
-5: Gerenciar de forma simples e prática as informações da academia.  
+• Vá em Tools > NuGet Package Manager > Manage NuGet Packages for Solution...
 
-Os dados são salvos no banco de dados **SQLite**, garantindo persistência e confiabilidade.
+• Verifique se o pacote System.Data.SQLite.Core está instalado.
+
+4. Banco de dados
+O arquivo bancoAcademia.db já está incluído no repositório.
+Ele será copiado automaticamente para a pasta bin quando o projeto for compilado.
+• Você não precisa configurar caminhos manuais, apenas garantir que o arquivo está no repositório.
+
+5. Compilar e executar
+
+• Certifique-se de que a plataforma de destino do projeto está configurada como x64 (em Project > Properties > Build > Platform target).
+
+• Pressione F5 para compilar e rodar.
+
+5. Funcionalidades principais
+
+• Cadastrar alunos, professores, turmas e usuários.
+
+• Vincular alunos a turmas e professores.
+
+• Consultar, editar e excluir registros.
+
+• Navegar pelas interfaces criadas com foco em usabilidade.
+
+• Gerenciar de forma simples e prática as informações da academia.
 
 ## Funcionalidades
 
