@@ -34,8 +34,7 @@ As dependências são restauradas automaticamente ao abrir o projeto, mas, se ne
 
 4. Banco de dados
 
-O arquivo bancoAcademia.db já está incluído no repositório.
-Ele será copiado automaticamente para a pasta bin quando o projeto for compilado.
+- O arquivo bancoAcademia.db já está incluído no repositório, ele será copiado automaticamente para a pasta bin quando o projeto for compilado.
 • Você não precisa configurar caminhos manuais, apenas garantir que o arquivo está no repositório.
 
 5. Compilar e executar
