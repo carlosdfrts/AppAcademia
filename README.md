@@ -20,7 +20,7 @@ Dependendo do nível de acesso, diferentes funcionalidades ficam disponíveis no
 ## Como Usar
 1. Clonar o repositório
 
-git clone https://github.com/carlosdfrts/AppAcademia.git
+- git clone https://github.com/carlosdfrts/AppAcademia.git
 
 2. Abra a solução no Visual Studio 2022 (ou superior).
 
@@ -33,6 +33,7 @@ As dependências são restauradas automaticamente ao abrir o projeto, mas, se ne
 - Verifique se o pacote System.Data.SQLite.Core está instalado.
 
 4. Banco de dados
+
 O arquivo bancoAcademia.db já está incluído no repositório.
 Ele será copiado automaticamente para a pasta bin quando o projeto for compilado.
 • Você não precisa configurar caminhos manuais, apenas garantir que o arquivo está no repositório.
