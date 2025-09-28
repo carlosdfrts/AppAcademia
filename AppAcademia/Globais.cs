@@ -13,12 +13,11 @@ namespace AppAcademia
         public static string versao = "1.0";
         public static bool logado = false;
         public static int nivel = 0; // 0 = visitante, 1 = usuário/aluno, 2 = gerente, 3 = administrador
-        public static string caminho = System.Environment.CurrentDirectory;
-        public static string caminhoBanco = Path.Combine(
-            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName,
-            "banco",
-            "bancoAcademia.db"
-        );
+        // public static string caminho = System.Environment.CurrentDirectory;
+        public static string caminho = System.AppDomain.CurrentDomain.BaseDirectory.ToString();
+        public static string nomeBanco = "bancoAcademia.db";
+        public static string caminhoFotos = caminho + @"\fotos\";
+        public static string caminhoBanco = Path.Combine(caminho, nomeBanco);
 
         // Informações do banco de dados
         /*
@@ -50,13 +49,5 @@ namespace AppAcademia
             tbHorarios as tbh on tbh.N_IDHORARIO = tbt.N_IDHORARIO,
             tbProfessores as tbp on tbp.N_IDPROFESSOR = tbt.N_IDPROFESSOR 
         */
-
-        static Globais()
-        {
-            if (!System.IO.File.Exists(Globais.caminhoBanco))
-            {
-                MessageBox.Show("Arquivo do banco de dados não encontrado: " + Globais.caminhoBanco);
-            }
-        }
     }
 }

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAcademia", "AppAcademia\AppAcademia.csproj", "{25F5D163-4002-42BC-856F-489C55C28271}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup Academia", "instalador\Setup Academia.vdproj", "{424F4D21-8B79-0ACD-90B6-C09FBA4BEBB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{25F5D163-4002-42BC-856F-489C55C28271}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25F5D163-4002-42BC-856F-489C55C28271}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25F5D163-4002-42BC-856F-489C55C28271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424F4D21-8B79-0ACD-90B6-C09FBA4BEBB9}.Debug|Any CPU.ActiveCfg = Debug
+		{424F4D21-8B79-0ACD-90B6-C09FBA4BEBB9}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

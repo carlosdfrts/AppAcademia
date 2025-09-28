@@ -115,5 +115,11 @@ namespace AppAcademia
             FormNovoAluno formNovoAluno = new FormNovoAluno();
             abreForm(1, formNovoAluno);
         }
+
+        private void gestãoAlunosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormGestaoAluno formGestaoAluno = new FormGestaoAluno();
+            abreForm(1, formGestaoAluno);
+        }
     }
 }

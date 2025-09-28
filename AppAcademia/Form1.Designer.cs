@@ -47,8 +47,8 @@
             this.gestãoDeTurmasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.professoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manutençãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bancoDeDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.horáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestãoAlunosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLedLogado)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -160,10 +160,11 @@
             // alunosToolStripMenuItem
             // 
             this.alunosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.novoAlunoToolStripMenuItem});
+            this.novoAlunoToolStripMenuItem,
+            this.gestãoAlunosToolStripMenuItem});
             this.alunosToolStripMenuItem.Name = "alunosToolStripMenuItem";
-            this.alunosToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.alunosToolStripMenuItem.Text = "Usuários";
+            this.alunosToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.alunosToolStripMenuItem.Text = "Alunos";
             this.alunosToolStripMenuItem.Click += new System.EventHandler(this.alunosToolStripMenuItem_Click);
             // 
             // novoAlunoToolStripMenuItem
@@ -222,19 +223,11 @@
             // manutençãoToolStripMenuItem
             // 
             this.manutençãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bancoDeDadosToolStripMenuItem,
             this.horáriosToolStripMenuItem});
             this.manutençãoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.manutençãoToolStripMenuItem.Name = "manutençãoToolStripMenuItem";
             this.manutençãoToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
             this.manutençãoToolStripMenuItem.Text = "Manutenção";
-            // 
-            // bancoDeDadosToolStripMenuItem
-            // 
-            this.bancoDeDadosToolStripMenuItem.Name = "bancoDeDadosToolStripMenuItem";
-            this.bancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.bancoDeDadosToolStripMenuItem.Text = "Banco de dados";
-            this.bancoDeDadosToolStripMenuItem.Click += new System.EventHandler(this.bancoDeDadosToolStripMenuItem_Click);
             // 
             // horáriosToolStripMenuItem
             // 
@@ -242,6 +235,13 @@
             this.horáriosToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.horáriosToolStripMenuItem.Text = "Horários";
             this.horáriosToolStripMenuItem.Click += new System.EventHandler(this.horáriosToolStripMenuItem_Click);
+            // 
+            // gestãoAlunosToolStripMenuItem
+            // 
+            this.gestãoAlunosToolStripMenuItem.Name = "gestãoAlunosToolStripMenuItem";
+            this.gestãoAlunosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gestãoAlunosToolStripMenuItem.Text = "Gestão Alunos";
+            this.gestãoAlunosToolStripMenuItem.Click += new System.EventHandler(this.gestãoAlunosToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -278,7 +278,6 @@
         private System.Windows.Forms.ToolStripMenuItem loginToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem manutençãoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bancoDeDadosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuáriosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestãoDeUsuáriosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem novoUsuárioToolStripMenuItem;
@@ -288,6 +287,7 @@
         private System.Windows.Forms.ToolStripMenuItem horáriosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem professoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestãoDeTurmasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gestãoAlunosToolStripMenuItem;
     }
 }
 

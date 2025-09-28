@@ -7,14 +7,22 @@ namespace AppAcademia
 {
     internal static class Program
     {
-        static string bancoPath = Globais.caminhoBanco;
+        static string bancoPath = Path.Combine(Globais.caminhoBanco, Globais.nomeBanco);
 
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            MessageBox.Show("Banco usado: " + Globais.caminhoBanco);
+            try
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new Form1());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao iniciar o programa: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

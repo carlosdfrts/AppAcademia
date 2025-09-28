@@ -46,7 +46,11 @@
             this.tbSelecionarPlano = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnSelecionarPlano = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.pbFoto = new System.Windows.Forms.PictureBox();
+            this.btnAdicionarFoto = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).BeginInit();
             this.SuspendLayout();
             // 
             // tbNomeAluno
@@ -125,7 +129,7 @@
             this.panel1.Controls.Add(this.btnFechar);
             this.panel1.Controls.Add(this.btnCancelar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 210);
+            this.panel1.Location = new System.Drawing.Point(0, 376);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(453, 30);
             this.panel1.TabIndex = 53;
@@ -236,11 +240,38 @@
             this.btnSelecionarPlano.Text = "...";
             this.btnSelecionarPlano.UseVisualStyleBackColor = true;
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Filter = "JPG(*.jpg)|*.jpg|PNG(*.png)|*.png";
+            // 
+            // pbFoto
+            // 
+            this.pbFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbFoto.Location = new System.Drawing.Point(15, 206);
+            this.pbFoto.Name = "pbFoto";
+            this.pbFoto.Size = new System.Drawing.Size(110, 145);
+            this.pbFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbFoto.TabIndex = 61;
+            this.pbFoto.TabStop = false;
+            // 
+            // btnAdicionarFoto
+            // 
+            this.btnAdicionarFoto.Location = new System.Drawing.Point(156, 328);
+            this.btnAdicionarFoto.Name = "btnAdicionarFoto";
+            this.btnAdicionarFoto.Size = new System.Drawing.Size(261, 23);
+            this.btnAdicionarFoto.TabIndex = 62;
+            this.btnAdicionarFoto.Text = "Adicionar Foto";
+            this.btnAdicionarFoto.UseVisualStyleBackColor = true;
+            this.btnAdicionarFoto.Click += new System.EventHandler(this.btnAdicionarFoto_Click);
+            // 
             // FormNovoAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(453, 240);
+            this.ClientSize = new System.Drawing.Size(453, 406);
+            this.Controls.Add(this.btnAdicionarFoto);
+            this.Controls.Add(this.pbFoto);
             this.Controls.Add(this.btnSelecionarPlano);
             this.Controls.Add(this.tbSelecionarPlano);
             this.Controls.Add(this.label5);
@@ -262,6 +293,7 @@
             this.Text = "Novo Aluno";
             this.Load += new System.EventHandler(this.FormNovoAluno_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -287,5 +319,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnSelecionarPlano;
         public System.Windows.Forms.TextBox tbSelecionarTurma;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.PictureBox pbFoto;
+        private System.Windows.Forms.Button btnAdicionarFoto;
     }
 }
