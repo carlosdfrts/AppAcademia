@@ -20,8 +20,9 @@ Dependendo do nível de acesso, diferentes funcionalidades ficam disponíveis no
 ## Como Usar
 0. Baixe o [``Executável``](https://github.com/carlosdfrts/AppAcademia/releases/download/v1.0/Setup.Academia.msi) por aqui, ou vá até releases e baixe o Setup.Academia.msi.
 
+ou  
 
-1. Clonar o repositório
+1. Clone o repositório
 
 - git clone https://github.com/carlosdfrts/AppAcademia.git
 
