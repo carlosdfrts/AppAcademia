@@ -18,7 +18,7 @@ Dependendo do nível de acesso, diferentes funcionalidades ficam disponíveis no
 - **3 = Administrador:** acesso total ao sistema, incluindo funções de manutenção e gerenciamento de usuários.  
 
 ## Como Usar
-0. Baixe o ``Executável``(https://github.com/carlosdfrts/AppAcademia/releases/download/v1.0/Setup.Academia.msi) por aqui, ou vá até releases e baixe o Setup.Academia.msi.
+0. Baixe o [``Executável``](https://github.com/carlosdfrts/AppAcademia/releases/download/v1.0/Setup.Academia.msi) por aqui, ou vá até releases e baixe o Setup.Academia.msi.
 
 
 1. Clonar o repositório
